@@ -1,4 +1,4 @@
 Taut
 =======
 
-** TODO: Add description **
+Skynet Mk. II
