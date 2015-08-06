@@ -1,4 +1,4 @@
-defmodule Slacker.Bot do
+defmodule Taut.Bot do
   use Slack
 
   def init(initial_state, slack) do

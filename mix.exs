@@ -1,4 +1,4 @@
-defmodule Slacker.Mixfile do
+defmodule Taut.Mixfile do
   use Mix.Project
 
   def project do
@@ -16,7 +16,7 @@ defmodule Slacker.Mixfile do
   def application do
     [
       applications: [:logger, :slack],
-      mod: {Slacker, []}
+      mod: {Taut, []}
     ]
   end
 

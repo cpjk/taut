@@ -1,4 +1,4 @@
-Slacker
+Taut
 =======
 
 ** TODO: Add description **

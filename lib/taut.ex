@@ -1,7 +1,7 @@
-defmodule Slacker do
+defmodule Taut do
   use Application
 
   def start(_type, _args) do
-    Slacker.Sup.start_link
+    Taut.Sup.start_link
   end
 end

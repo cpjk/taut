@@ -1,4 +1,4 @@
-defmodule Slacker.Sup do
+defmodule Taut.Sup do
   use Supervisor
 
   @token System.get_env("SLACK_API_TOKEN")
@@ -8,7 +8,7 @@ defmodule Slacker.Sup do
   end
 
   def init([]) do
-    children = [worker(Slacker.Bot, [@token, 1])]
+    children = [worker(Taut.Bot, [@token, 1])]
 
     supervise(children, strategy: :one_for_one)
   end
