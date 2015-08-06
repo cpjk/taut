@@ -6,6 +6,11 @@ defmodule Slacker.Bot do
     {:ok, initial_state}
   end
 
+  def handle_connect(_slack, state) do
+    IO.puts "Connect received"
+    {:ok, state}
+  end
+
   def handle_message(_message, _slack, state) do
     IO.puts "Message received"
     {:ok, state}
