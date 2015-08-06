@@ -14,8 +14,10 @@ defmodule Slacker.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:logger, :slack],
-    mod: {Slacker, []}]
+    [
+      applications: [:logger, :slack],
+      mod: {Slacker, []}
+    ]
   end
 
   defp deps do
